@@ -1,0 +1,24 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "format": "prettier --write ./src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "sass": "^1.63.5",
+    "solid-devtools": "^0.27.3",
+    "vite": "^4.3.9",
+    "vite-plugin-solid": "^2.7.0"
+  },
+  "dependencies": {
+    "bulma": "^0.9.4",
+    "solid-js": "^1.7.6"
+  }
+}
