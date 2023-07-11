@@ -6,7 +6,7 @@ export default function () {
   const [password, setPassword] = createSignal("")
   const [email, setEmail] = createSignal("")
   const onSubmit = function() {
-    console.log(username(), email())
+    console.log(password(), email())
   }
   return (
     <>
