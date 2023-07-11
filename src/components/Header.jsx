@@ -42,7 +42,9 @@ export default function () {
             <A href="/" class="navbar-item">
               Home
             </A>
-            <A href="/docuemntation" class="navbar-item">Documentation</A>
+            <A href="/docuemntation" class="navbar-item">
+              Documentation
+            </A>
           </div>
 
           <div class="navbar-end">

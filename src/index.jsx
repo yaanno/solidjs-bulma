@@ -5,8 +5,8 @@ import App from "./App";
 import { Route, Router, Routes } from "@solidjs/router";
 import { lazy } from "solid-js";
 
-const Login = lazy(() => import("./pages/Login"))
-const Signup = lazy(() => import("./pages/Signup"))
+const Login = lazy(() => import("./pages/Login"));
+const Signup = lazy(() => import("./pages/Signup"));
 
 const root = document.getElementById("root");
 

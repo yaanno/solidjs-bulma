@@ -3,11 +3,11 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 export default function () {
-  const [password, setPassword] = createSignal("")
-  const [email, setEmail] = createSignal("")
-  const onSubmit = function() {
-    console.log(password(), email())
-  }
+  const [password, setPassword] = createSignal("");
+  const [email, setEmail] = createSignal("");
+  const onSubmit = function () {
+    console.log(password(), email());
+  };
   return (
     <>
       <Header />
@@ -16,8 +16,12 @@ export default function () {
           <h1 class="title">Log in</h1>
         </section>
         <section class="section">
-          <form class="box" action="/login/submit" onSubmit={(e) => e.preventDefault()}>
-          <div class="field">
+          <form
+            class="box"
+            action="/login/submit"
+            onSubmit={(e) => e.preventDefault()}
+          >
+            <div class="field">
               <label class="label">Email</label>
               <div class="control">
                 <input
@@ -43,10 +47,12 @@ export default function () {
               </div>
               <p class="help is-danger">Invalid password</p>
             </div>
-            
+
             <div class="field is-grouped">
               <div class="control">
-                <button onclick={onSubmit} class="button is-link">Submit</button>
+                <button onclick={onSubmit} class="button is-link">
+                  Submit
+                </button>
               </div>
               <div class="control">
                 <button class="button is-link is-light">Cancel</button>
